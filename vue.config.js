@@ -10,6 +10,7 @@ module.exports = defineConfig({
     open:true,
     // 是否开始https
     https:false
-
-  }
+  },
+  // 关闭eslint
+  lintOnSave:false
 });
